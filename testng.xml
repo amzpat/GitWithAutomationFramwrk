@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/mpm26/eclipse-workspace/AutomationFramwrk1">
+        <classes>
+            <class name="com.pageTestpkg.HomePageTest">
+                <methods>
+                    <include name="TestTitle"/>
+                    <include name="verifywblLogoTest"/>
+                    <include name="verifyStudntTest"/>
+                    <include name="Testloginbtn"/>
+                </methods>
+            </class>
+            <class name="com.pageTestpkg.LandingpageTest">
+                <methods>
+                    <include name="Testwbl"/>
+                    <include name="Testmailid"/>
+                </methods>
+            </class>
+            <class name="com.pageTestpkg.LoginpageTest">
+                <methods>
+                    <include name="validatelogintitlTest"/>
+                    <include name="loginTest"/>
+                    <include name="LoginDataTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/mpm26/eclipse-workspace/AutomationFramwrk1(failed)">
+    <classes>
+      <class name="com.pageTestpkg.ParallelTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.pageTestpkg.ParallelTest -->
+    </classes>
+  </test> <!-- C:/Users/mpm26/eclipse-workspace/AutomationFramwrk1(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
